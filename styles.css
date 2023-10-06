@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    font-weight: 800;
+    background-color: rgb(38, 90, 247);
+    color: azure;
+    width: 300px;
+    border-radius: 12px;
+}
+.btn-holder{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 10px;
+    background-color: rgb(38, 90, 247);
+    color: azure;
+    height: 30px;
+    width: 300px;
+    font-size: medium;
+    font-weight: 800;
+    border-radius: 8px;
+    border: none;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 80%;
+    margin: auto;
+}
+.container .cell {
+    background-color: rgb(28, 224, 129);
+    border: 2px solid rgb(26, 12, 12);
+    height: calc(100% / var(--grid-size) - 4px);
+    width: calc(100% / var(--grid-size) - 4px);
+}
