@@ -38,8 +38,9 @@ h1{
     margin: auto;
 }
 .container .cell {
-    background-color: rgb(28, 224, 129);
+    background-color: rgb(44, 255, 209);
     border: 2px solid rgb(26, 12, 12);
-    height: calc(100% / var(--grid-size) - 4px);
-    width: calc(100% / var(--grid-size) - 4px);
+    height: calc(100% / var(--grid-size));
+    width: calc(100% / var(--grid-size));
+    box-sizing: border-box;
 }
